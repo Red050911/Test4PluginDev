@@ -9,7 +9,7 @@ To install Test4PluginDev, follow the instructions below.
 First, download Python 3 for Windows at [this link](https://www.python.org/downloads/windows/). Then, install it and go to your project directory.
 Now, run the command below in the root directory of your project.
 ```batch
-curl -o testproject.py https://raw.github.com/Red050911/Test4PluginDev/master/testproject.py
+curl -o testproject.py https://raw.githubusercontent.com/Red050911/Test4PluginDev/master/testproject.py
 ```
 Now you have it set up! You can run testproject.py to test your project.
 ### Linux
@@ -19,7 +19,7 @@ sudo apt install python3
 ```
 Now that you have Python installed, go to your project's root directory and run:
 ```shell
-curl -o testproject.py https://raw.github.com/Red050911/Test4PluginDev/master/testproject.py
+curl -o testproject.py https://raw.githubusercontent.com/Red050911/Test4PluginDev/master/testproject.py
 ```
 Now you have it set up! You can run testproject.py to test your project.
 # Usage
