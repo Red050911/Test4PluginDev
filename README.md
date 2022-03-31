@@ -38,3 +38,5 @@ If you use Git for version control, make sure to include these two lines in your
 testproject.py
 testing/
 ```
+
+*I am not affiliated with Mojang, Git, Python, PaperMC, or Microsoft*
