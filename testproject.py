@@ -46,17 +46,17 @@ try:
 except OSError as error:
     print("Directory already exists, skipping")
 print("Refreshing server.jar...")
-r = requests.get(url = "https://api.papermc.io/v2/projects/paper/versions/1.19")
+r = requests.get(url = "https://api.papermc.io/v2/projects/paper/versions/1.19.1")
 data = r.json()
-print("Received 1.19 build data")
+print("Received 1.19.1 build data")
 print(data)
 latestBuild = data["builds"][len(data["builds"]) - 1]
-r = requests.get(url = "https://api.papermc.io/v2/projects/paper/versions/1.19/builds/" + str(latestBuild))
+r = requests.get(url = "https://api.papermc.io/v2/projects/paper/versions/1.19.1/builds/" + str(latestBuild))
 data = r.json()
 print("Received latest DL information")
 print(data)
-print("Downloading from https://api.papermc.io/v2/projects/paper/versions/1.19/builds/" + str(latestBuild) + "/downloads/" + data["downloads"]["application"]["name"])
-dl = requests.get("https://api.papermc.io/v2/projects/paper/versions/1.19/builds/" + str(latestBuild) + "/downloads/" + data["downloads"]["application"]["name"])
+print("Downloading from https://api.papermc.io/v2/projects/paper/versions/1.19.1/builds/" + str(latestBuild) + "/downloads/" + data["downloads"]["application"]["name"])
+dl = requests.get("https://api.papermc.io/v2/projects/paper/versions/1.19.1/builds/" + str(latestBuild) + "/downloads/" + data["downloads"]["application"]["name"])
 with open("newsrv.jar", "wb") as file:
     file.write(dl.content)
 print("Checking file hash...")
