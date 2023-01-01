@@ -34,6 +34,22 @@ Or the more unsupported but still works way:
 python testproject.py
 ```
 in your OS terminal.
+# Troubleshooting
+If you get the error:
+```
+Traceback (most recent call last):
+  File "C:\*\testproject.py", line 35, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+```
+, you should run the command below:
+```shell
+pip install requests
+```
+, or:
+```shell
+python -m pip install requests
+```
 # Attention
 If you use Git for version control, make sure to include these two lines in your gitignore!
 ```gitignore
