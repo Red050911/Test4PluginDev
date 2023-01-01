@@ -6,9 +6,10 @@ Test4PluginDev simplifies this process with a single Python script that download
 # Install
 To install Test4PluginDev, follow the instructions below.
 ### Windows
-First, download Python 3 for Windows at [this link](https://www.python.org/downloads/windows/). Then, install it and go to your project directory.
-Now, run the command below in the root directory of your project.
-```batch
+First, download Python 3 for Windows at [this link](https://www.python.org/downloads/windows/). Then, install it and go to your project directory.\
+Now that you have Python installed, you should install Apache Maven if it is not already installed, you can download it [here](https://maven.apache.org/download.cgi) and find out how to install it [here](https://maven.apache.org/install.html).\
+Then, simply run the command below in the root directory of your project.
+```shell
 curl -o testproject.py https://raw.githubusercontent.com/Red050911/Test4PluginDev/master/testproject.py
 ```
 Now you have it set up! You can run testproject.py to test your project.
@@ -17,7 +18,8 @@ First, download Python 3 for your distribution. Use your distro's way of getting
 ```shell
 sudo apt install python3
 ```
-Now that you have Python installed, go to your project's root directory and run:
+Now that you have Python installed, you should install Apache Maven if it is not already installed, you can download it [here](https://maven.apache.org/download.cgi) and find out how to install it [here](https://maven.apache.org/install.html).\
+Then, simply run the command below in the root directory of your project.
 ```shell
 curl -o testproject.py https://raw.githubusercontent.com/Red050911/Test4PluginDev/master/testproject.py
 ```
@@ -39,4 +41,4 @@ testproject.py
 testing/
 ```
 
-*I am not affiliated with Mojang, Git, Python, PaperMC, or Microsoft*
+*I am not affiliated with Mojang, Git, Python, PaperMC, Apache, or Microsoft*
